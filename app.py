@@ -4,6 +4,7 @@ from flask_jwt_extended import JWTManager
 from flask import Flask,jsonify
 from flask_migrate import Migrate
 
+
 from db import db
 import models
 import os 
